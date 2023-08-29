@@ -1,5 +1,7 @@
+@import "App.css";
+
 nav {
-  background-color: gray;
+  background-color: var(--light);
   height: 100px;
   text-align: center;
   padding-top: 40px;
@@ -7,8 +9,9 @@ nav {
 .nav-link {
   display: inline-block;
   margin: 0 10px;
-  font-size: 24px; color: white;
+  font-size: 24px;
+  color: var(--dark);
 }
 .nav-link.active {
-  color: white !important;
+  color: var(--dark) !important;
 }

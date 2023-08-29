@@ -1,15 +1,6 @@
 /*Google Fonts : Abril Fatface, Noto Sans KR*/
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Noto+Sans+KR:wght@300;400;600;700&display=swap');
 
-/*
-@font-face {
-  font-family: 'SDKukdetopokki-Lt';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/SDKukdetopokki-aLt00.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-*/
-
 /* Outward Block (Regular) */
 @font-face {
   font-family: 'Outward';
@@ -28,14 +19,20 @@
   src: url('./fonts/LeMurmure-Regular.woff') format('woff');
 }
 
+/* Color Variables */
+:root {
+  --light: #FCFCFC;
+  --dark: #1E1E1E;
+}
+
 * {
   box-sizing: border-box;
   font-family: 'Noto Sans KR', sans-serif;
-  color: #ffffff;
+  color: var(--dark);
 }
 
 h2, h3 {
-  font-family: 'Murmure', cursive;
+  font-family: 'Murmure', 'Noto Sans KR', sans-serif;
   font-size: 32px;
 }
 
@@ -44,7 +41,7 @@ html, body{
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: #000000;
+  background-color: var(--light);
 }
 
 .heading{

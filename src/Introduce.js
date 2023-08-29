@@ -26,7 +26,7 @@ function App() {
           <Col className='text-end'>
             {/*이미지 파일의 기본 폴더는 public*/}
             <Image src="./logo192.png" alt="프로필 사진" 
-            style={{ border: '1px solid #ff0000', width: 300 }} 
+            style={{ border: '5px solid var(--dark)', width: 300 }} 
             roundedCircle />
           </Col>
           <Col>
@@ -99,15 +99,15 @@ function App() {
         </Row>
         <Row className='mb-4'>
           <Col className="text-center border border-light px-0">
-            <h3 style={{ background: "#ff0000", margin: 0, padding: 3 }}>MAIL</h3>
+            <h3 style={{ background: "var(--light)", margin: 0, padding: 3 }}>MAIL</h3>
             <p style={{ margin: 0, padding: 10 }}>jason@naver.com</p>
           </Col>
           <Col className="text-center border border-light px-0">
-            <h3 style={{ background: "#ff0000", margin: 0, padding: 3 }}>PHONE</h3>
+            <h3 style={{ background: "var(--light)", margin: 0, padding: 3 }}>PHONE</h3>
             <p style={{ margin: 0, padding: 10 }}>010-1234-1346</p>
           </Col>
           <Col className="text-center border border-light px-0">
-            <h3 style={{ background: "#ff0000", margin: 0, padding: 3 }}>SNS</h3>
+            <h3 style={{ background: "var(--light)", margin: 0, padding: 3 }}>SNS</h3>
             <p style={{ margin: 0, padding: 10 }}>@jason_13_</p>
           </Col>
         </Row>
