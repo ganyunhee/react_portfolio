@@ -52,6 +52,9 @@ function App() {
             </Col>
         </Row>
       </Container>
+      <br /><br />
+      <marquee scrollamount="10" scrolldelay="50">-- So many things I want to do --</marquee>
+      <br />
       <Container id="portfolio">
         <Row className='py-5'>
           <Col>
