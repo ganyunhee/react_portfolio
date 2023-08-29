@@ -25,25 +25,29 @@ function App() {
         <Row className="w-75 m-auto" >
           <Col className='text-end'>
             {/*이미지 파일의 기본 폴더는 public*/}
-            <Image src="./logo192.png" alt="프로필 사진" 
-            style={{ border: '5px solid var(--dark)', width: 300 }} 
+            <Image src="./profile.jpg" alt="프로필 사진" 
+            style={{ border: '5px solid var(--dark)', width: 300, margin: 50 }} 
             roundedCircle />
           </Col>
           <Col>
             <h3 className="about__category">PROFILE</h3>
             <p>
-              # 제이슨 <br />
-              크리스탈 호수 168-2번지<br />
-              캘리포니아 전문대학 전산과 <br />
-              국비지원 프론트엔드 부트캠프 수료<br />
+              <b># Eunice Gan</b> <br />
+              바탕가스, 필리핀 출신 <br />
+              한국에 2017년 이주 <br />
+              서강대학교 컴퓨터공학과 <br />
               <br />
-              # 장점 <br />
-              빠른 판단력 <br />
-              성실한 태도 <br />
+              <b># 장점</b> <br />
+              열정적이고 끈기 있는 성격 <br />
+              호기심 많고 배우는 것을 좋아하는 특징 <br />
+              정직하고 부지런한 언행 <br />
+              보면서 배우고 행동을 맞출 수 있는 능력 <br />
               <br />
-              # 단점 WEAKNESS <br />
-              무대 공포증 <br />
-              여린 심성 <br />
+              <b># 단점</b> <br />
+              완벽을 추구하는 성향 <br />
+              설명을 기다리고 고집스러운 경향 <br />
+              유치하고 특이한 개그코드 <br />
+              한계를 지키지 못해 과로하는 습관 <br />
             </p>
             </Col>
         </Row>
@@ -60,10 +64,12 @@ function App() {
               <img
                 className="d-block w-100"
                 src="http://via.placeholder.com/1280x960"
+                text="Quantastic Web App"
                 alt="First slide"
               />
               <Carousel.Caption>
-                <h3>첫 번째 프로젝트</h3>
+                <h4>Quantastic Web App</h4>
+                <p style={{ color: "var(--light)" }}>Explanation Here.</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -74,7 +80,8 @@ function App() {
               />
 
               <Carousel.Caption>
-                <h3>두 번째 프로젝트</h3>
+                <h4>PAINT Program</h4>
+                <p style={{ color: "var(--light)" }}>Explanation Here.</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -85,7 +92,32 @@ function App() {
               />
 
               <Carousel.Caption>
-                <h3>세 번째 프로젝트</h3>
+                <h4>Pacman Adversarial Search</h4>
+                <p style={{ color: "var(--light)" }}>Explanation Here.</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="http://via.placeholder.com/1280x960"
+                alt="Fourth slide"
+              />
+
+              <Carousel.Caption>
+                <h4>Lane Auto Detection</h4>
+                <p style={{ color: "var(--light)" }}>Explanation Here.</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="http://via.placeholder.com/1280x960"
+                alt="Fifth slide"
+              />
+
+              <Carousel.Caption>
+                <h4>AI Color Picker</h4>
+                <p style={{ color: "var(--light)" }}>Explanation Here.</p>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
@@ -100,19 +132,19 @@ function App() {
         <Row className='mb-4'>
           <Col className="text-center border border-light px-0">
             <h3 style={{ background: "var(--light)", margin: 0, padding: 3 }}>MAIL</h3>
-            <p style={{ margin: 0, padding: 10 }}>jason@naver.com</p>
+            <p style={{ margin: 0, padding: 10 }}>eunicenellgan@gmail.com</p>
           </Col>
           <Col className="text-center border border-light px-0">
             <h3 style={{ background: "var(--light)", margin: 0, padding: 3 }}>PHONE</h3>
-            <p style={{ margin: 0, padding: 10 }}>010-1234-1346</p>
+            <p style={{ margin: 0, padding: 10 }}>010-5475-9962</p>
           </Col>
           <Col className="text-center border border-light px-0">
             <h3 style={{ background: "var(--light)", margin: 0, padding: 3 }}>SNS</h3>
-            <p style={{ margin: 0, padding: 10 }}>@jason_13_</p>
+            <p style={{ margin: 0, padding: 10 }}>@ganyuniseu</p>
           </Col>
         </Row>
         <Row className='justify-content-center py-5'>
-          Copyright &copy; 제이슨 부히즈. All Right Reserved.
+          Copyright &copy; Eunice Gan. All Rights Reserved.
           </Row>
       </Container>
     </>
