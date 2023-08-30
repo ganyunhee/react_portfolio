@@ -6,15 +6,15 @@ import { Container, Nav, Navbar, Col, Row, Image, Carousel  } from 'react-bootst
 import "./App.css"
 import "./Custom.css"
 
-/*
+
 import { Wrapper, Marquee } from "./Marquee";
 const MARQUEE_TEXT = [
   "--",
   "So many things I want to Do"
 ];
-*/
 
-import Marquee from 'react-fast-marquee';
+
+//import Marquee from 'react-fast-marquee';
 
 function App() {
   return (
@@ -67,12 +67,13 @@ function App() {
       <marquee scrollamount="10" scrolldelay="50">-- So many things I want to do --</marquee>
       */}
 
-      {/* // Marquee.js functions
+      {/* // Marquee.js functions */}
       <Wrapper>
         <Marquee list={MARQUEE_TEXT} time={5} />
       </Wrapper>
-      */}
       
+
+      {/*
       <Marquee pauseOnHover speed="100">
         <div className="text">
           <div className="text-list text1"><span>--</span></div>
@@ -81,6 +82,7 @@ function App() {
           <div className="text-list text4"><span>So many things I want to do</span></div>
         </div>
       </Marquee>
+      */}
       <br />
       <Container id="portfolio">
         <Row className='py-5'>
