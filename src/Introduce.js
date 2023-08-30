@@ -6,6 +6,12 @@ import { Container, Nav, Navbar, Col, Row, Image, Carousel  } from 'react-bootst
 import "./App.css"
 import "./Custom.css"
 
+import { Wrapper, Marquee } from "./Marquee";
+const MARQUEE_TEXT = [
+  "--",
+  "So many things I want to Do"
+];
+
 function App() {
   return (
     <> 
@@ -53,7 +59,12 @@ function App() {
         </Row>
       </Container>
       <br /><br />
+      {/*
       <marquee scrollamount="10" scrolldelay="50">-- So many things I want to do --</marquee>
+      */}
+      <Wrapper>
+        <Marquee list={MARQUEE_TEXT} time={5} />
+      </Wrapper>
       <br />
       <Container id="portfolio">
         <Row className='py-5'>

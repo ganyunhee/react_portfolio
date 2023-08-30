@@ -50,6 +50,7 @@ html, body{
   margin: 0 0 50px;
 }
 
+/*
 marquee {
   height: auto;
   background-color: var(--dark);
@@ -58,7 +59,7 @@ marquee {
   font-family: 'Murmure', sans-serif;
   text-transform: uppercase;
 }
+*/
 
 /* Todo : use react for marquee */
 /* ref. https://codepen.io/jico/pen/LYbvJKd */
-/* or using css ref. https://codepen.io/ReGGae/pen/ZEYJyRd */
