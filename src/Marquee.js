@@ -53,7 +53,7 @@ const MarqueeArea = styled.div`
     white-space: nowrap;
     transform: translateX(-${(props) => props.move}px);
     animation: ${moveLeft} ${(props) => props.time}s linear infinite
-    ${(props) => (props.toRight ? " reverse" : "")};
+    ${(props) => (props.toRight ? "reverse" : "")};
     animation-play-state: inherit;
 `
 
