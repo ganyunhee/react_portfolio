@@ -69,11 +69,11 @@ function App() {
 
       {/* // Marquee.js functions */}
       <Wrapper>
-        <Marquee list={MARQUEE_TEXT} time={5} />
+        <Marquee list={MARQUEE_TEXT} time={10} />
       </Wrapper>
       
 
-      {/*
+      {/* React-fast-marquee
       <Marquee pauseOnHover speed="100">
         <div className="text">
           <div className="text-list text1"><span>--</span></div>

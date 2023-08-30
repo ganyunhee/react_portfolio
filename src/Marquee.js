@@ -106,8 +106,8 @@ export const Marquee = ({ list, time, toRight, ...props }) => {
     return (
         <MarqueeContainer ref={marqueeContainer} {...props}>
             <MarqueeArea ref={marqueeArea} move={moveLeft} time={realTime} toRight={toRight}>
-                {showList.map((item) => {
-                    return <MarqueeItem>{item}</MarqueeItem>
+                {showList.map((item, index) => {
+                    return <MarqueeItem key={index}>{item}</MarqueeItem>
                 })}
             </MarqueeArea>
         </MarqueeContainer>
