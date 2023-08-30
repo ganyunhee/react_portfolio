@@ -66,12 +66,14 @@ function App() {
       {/*
       <marquee scrollamount="10" scrolldelay="50">-- So many things I want to do --</marquee>
       */}
-      {/*
+
+      {/* // Marquee.js functions
       <Wrapper>
         <Marquee list={MARQUEE_TEXT} time={5} />
       </Wrapper>
       */}
-      <Marquee style={{ color: "red" }} pauseOnHover speed="100">
+      
+      <Marquee pauseOnHover speed="100">
         <div className="text">
           <div className="text-list text1"><span>--</span></div>
           <div className="text-list text2"><span>So many things I want to do</span></div>
