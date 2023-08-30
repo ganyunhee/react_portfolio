@@ -28,7 +28,7 @@
 * {
   box-sizing: border-box;
   font-family: 'Noto Sans KR', sans-serif;
-  color: var(--dark);
+  /*color: var(--dark);*/
 }
 
 h2, h3 {
@@ -61,5 +61,22 @@ marquee {
 }
 */
 
-/* Todo : use react for marquee */
-/* ref. https://codepen.io/jico/pen/LYbvJKd */
+.text {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  align-items: center;
+  font-size: 54px;
+  text-transform: uppercase;
+  font-family: 'Murmure' !important;
+  background-color: var(--dark);
+  color: var(--light) !important;
+}
+
+.text-list {
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+  font-family: 'Murmure' !important;
+}
