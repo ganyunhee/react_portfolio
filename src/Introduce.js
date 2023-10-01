@@ -95,61 +95,61 @@ function App() {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="http://via.placeholder.com/1280x960"
+                src="projects/1_quantastic_web_app.png"
                 text="Quantastic Web App"
                 alt="First slide"
               />
               <Carousel.Caption>
                 <h4>Quantastic Web App</h4>
-                <p style={{ color: "var(--light)" }}>Explanation Here.</p>
+                <p style={{ color: "var(--light)" }}>Quant-based web application for stock analysis</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="http://via.placeholder.com/1280x960"
+                src="projects/2_paint_program.png"
                 alt="Second slide"
               />
 
               <Carousel.Caption>
                 <h4>PAINT Program</h4>
-                <p style={{ color: "var(--light)" }}>Explanation Here.</p>
+                <p style={{ color: "var(--light)" }}>Duplicate Program of Microsoft Paint</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="http://via.placeholder.com/1280x960"
+                src="projects/3_pacman_auto.png"
                 alt="Third slide"
               />
 
               <Carousel.Caption>
                 <h4>Pacman Adversarial Search</h4>
-                <p style={{ color: "var(--light)" }}>Explanation Here.</p>
+                <p style={{ color: "var(--light)" }}>Automated Pacman via Adversarial Search</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="http://via.placeholder.com/1280x960"
+                src="projects/4_lane_auto_detection.png"
                 alt="Fourth slide"
               />
 
               <Carousel.Caption>
                 <h4>Lane Auto Detection</h4>
-                <p style={{ color: "var(--light)" }}>Explanation Here.</p>
+                <p style={{ color: "var(--light)" }}>Auto Lane Detection via Python</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="http://via.placeholder.com/1280x960"
+                src="projects/5_ai_color_picker.png"
                 alt="Fifth slide"
               />
 
               <Carousel.Caption>
                 <h4>AI Color Picker</h4>
-                <p style={{ color: "var(--light)" }}>Explanation Here.</p>
+                <p style={{ color: "var(--light)" }}>Color Palette Generator via K-Means and CNN, FCNN, LSTM</p>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
@@ -171,8 +171,8 @@ function App() {
             <p style={{ margin: 0, padding: 10 }}>010-5475-9962</p>
           </Col>
           <Col className="text-center border border-light px-0">
-            <h3 style={{ background: "var(--light)", margin: 0, padding: 3 }}>SNS</h3>
-            <p style={{ margin: 0, padding: 10 }}>@ganyuniseu</p>
+            <h3 style={{ background: "var(--light)", margin: 0, padding: 3 }}>GITHUB</h3>
+            <p style={{ margin: 0, padding: 10 }}>github.com/ganyunhee</p>
           </Col>
         </Row>
         <Row className='justify-content-center py-5'>
